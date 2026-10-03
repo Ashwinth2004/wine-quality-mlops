@@ -1,0 +1,6 @@
+.venv/
+airflow_home/
+mlflow.db
+mlartifacts/
+__pycache__/
+.pytest_cache/

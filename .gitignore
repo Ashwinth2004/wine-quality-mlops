@@ -1,0 +1,31 @@
+﻿# Environments
+.venv/
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Airflow runtime state
+airflow_home/
+
+# MLflow local state and artifacts
+mlflow.db
+mlruns/
+mlartifacts/
+
+# Generated pipeline outputs (recreated by every run)
+artifacts/*
+!artifacts/.gitkeep
+models/*
+!models/.gitkeep
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.tmp
+
