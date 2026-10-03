@@ -196,6 +196,17 @@ Repeated runs give identical scores because the seed and split are fixed. On thi
 Forest scored higher than Logistic Regression; no tuning or cross-validation was done, so this is a comparison of these two runs,
 not a general claim.
 
+### Screenshots
+
+Taken from the running system (full set with captions in [FINAL_REPORT.md](FINAL_REPORT.md)):
+
+![Airflow DAG run, all 5 tasks succeeded](docs/screenshots/airflow-2-dag-run-graph.png)
+![MLflow runs created by Airflow](docs/screenshots/mlflow-1-experiment-runs.png)
+![MLflow model comparison](docs/screenshots/mlflow-4-compare-models.png)
+
+The complete 19-point report (architecture, results, tests, problems and fixes, limitations) is in
+[FINAL_REPORT.md](FINAL_REPORT.md).
+
 ## Tests
 
 ```powershell
